@@ -1,6 +1,8 @@
 # Team Chiru Guidelines
 This guide attempts to be used as a centralized configuration for all team chiru project. It needs to be used as an easy setup in order to quickly have an operational workspace for each team chiru project. This file is simply a draft of usefull recommendation and cannot be used has a strict guide, but be warmed that all these configurations are supposed to be strongly used in all team chiru projects.
 
+**Be careful**: this guide must be edited first in the collaborative [Team Chiru Guidelines Draft](https://paper.dropbox.com/doc/Team-Chiru-Guidelines-Draft-YHh8yPhFpgz4b5cRPXlgA) which need to be used as a suggestions board.
+
 ## Configuration Guide
 ### Editor Configuration
 All basic configuration is described into an [EditorConfig](http://editorconfig.org/) file. The recommended text editor is [Visual Studio Code](https://code.visualstudio.com/) because it is fast and it has all most advanced features for debugging in *javascript*, *typescript* and *rust*.
