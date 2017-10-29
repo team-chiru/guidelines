@@ -1,0 +1,17 @@
+{
+  "name": "teamchiru_boilerplate",
+  "version": "1.0.0",
+  "description": "Team Chiru Boilerplate used for starting javascript projects by respecting the Team Chiru guidelines",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "team-chiru",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
