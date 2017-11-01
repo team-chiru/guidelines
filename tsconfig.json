@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outFile": "ts/main.js",
+        "sourceMap": true
+    },
+    "files": [
+        "ts/main.ts"
+    ]
+}
