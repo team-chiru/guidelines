@@ -1,0 +1,84 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Likemark",
+		"_postman_id": "ab58b0d6-6c63-3468-b922-41bcdeffb60c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:42506/entity/get",
+			"request": {
+				"url": "http://localhost:42506/entity/get/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "first get likemark"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:42506/entity/list",
+			"request": {
+				"url": "http://localhost:42506/entity/list",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "list "
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:42506/entity/post",
+			"request": {
+				"url": "http://localhost:42506/entity/post",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"postman\",\n\t\"url\":\"sidemark.io\"\n}"
+				},
+				"description": "post"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:42506/entity/update/1",
+			"request": {
+				"url": "http://localhost:42506/entity/update/1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"postman_updated\",\n\t\"url\":\"sidemark.io\"\n}"
+				},
+				"description": "update"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:42506/entity/delete/1",
+			"request": {
+				"url": "http://localhost:42506/entity/delete/6",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "delete"
+			},
+			"response": []
+		}
+	]
+}

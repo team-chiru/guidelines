@@ -18,4 +18,7 @@ jspm_packages/
 *.tgz
 
 # Yarn Integrity file
-.yarn-integrity
+.yarn-integrit
+
+# MacOS only
+.DS_Store
