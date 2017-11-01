@@ -4,22 +4,13 @@ This guide attempts to be used as a centralized configuration for all team chiru
 **Be careful**: this guide must be edited first in the collaborative [Team Chiru Guidelines Draft](https://paper.dropbox.com/doc/Team-Chiru-Guidelines-Draft-YHh8yPhFpgz4b5cRPXlgA) which needs to be used as a suggestions board.
 
 ## Configuration Guide
-The recommended text editor is [Visual Studio Code](https://code.visualstudio.com/) because it is fast and it has all most advanced features for debugging in *javascript*, *typescript* and *rust*.
+The recommended text editor is [Visual Studio Code](https://code.visualstudio.com/).
 
-### Editor Configuration
-All basic configurations are described into an [EditorConfig](http://editorconfig.org/) file. Thus, all files are indented to have the same configuration for all currently used languages:
+### Editor
+All basic configurations are described into an [EditorConfig](http://editorconfig.org/) file.
 
-| Key                      | Value         | Comment             |
-| ------------------------ | ------------- | ------------------- |
-| end_of_line              | lf            | Because UNIX rules. |
-| insert_final_newline     | true          | Because it's cleaner. |
-| trim_trailing_whitespace | true          | Because it's also cleaner. |
-| charset                  | utf-8         | Because it's 2017. |
-| indent_style             | tab           | Because the **Tab key** was created for this use. |
-| tab_width                | 4             | Because one day, we'll be all getting old. :eyeglasses: |
+### Extensions
 
-
-### Strongly Recommended Plugins
 
 
 ## Style Guide
@@ -34,6 +25,6 @@ The team-chiru's used package manager for js project is [Yarn](https://yarnpkg.c
 - [ ] Copy all the recommended configurations and plugins for this editor.
 - [ ] Install the recommended package manager.
 - [ ] Add the [common `.editorconfig`](./.editorconfig).
-- [ ] Copy all starter [files](./javascript/) into project
+- [ ] Copy all starter [files](./) into project
 - [ ] Run `yarn install` command in order to have all the setup ready for use
 
